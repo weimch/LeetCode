@@ -3,7 +3,7 @@ package sword_to_offer;
 /**
  * P3FindInPartiallySortedMatrix
  */
-public class P3FindInPartiallySortedMatrix {
+public class P03FindInPartiallySortedMatrix {
 
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         // 排除异常情况
@@ -29,7 +29,7 @@ public class P3FindInPartiallySortedMatrix {
     }
 
     public static void main(String[] args) {
-        P3FindInPartiallySortedMatrix sol = new P3FindInPartiallySortedMatrix();
+        P03FindInPartiallySortedMatrix sol = new P03FindInPartiallySortedMatrix();
         int[][] matrix1 = new int[][]{
             {1,   4,  7, 11, 15},
             {2,   5,  8, 12, 19},

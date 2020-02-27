@@ -1,6 +1,6 @@
 package sword_to_offer;
 
-public class P2DuplicationInArray {
+class P02DuplicationInArray {
     // 方法一：使用哈希表
     // public int findRepeatNumber(int[] nums) {
     //     boolean[] is_occupy = new boolean[nums.length];
@@ -35,7 +35,7 @@ public class P2DuplicationInArray {
     }
 
     public static void main(String[] args) {
-        P2DuplicationInArray sol = new P2DuplicationInArray();
+        P02DuplicationInArray sol = new P02DuplicationInArray();
         // test1: 包含一个或者多个重复数字
         int ans1 = sol.findRepeatNumber(new int[]{2, 3, 1, 0, 2, 5, 3});
         assert ans1 == 2 || ans1 == 3;
